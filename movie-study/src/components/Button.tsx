@@ -1,6 +1,6 @@
 type ButtonProps = {
     icon: string,
-    handleClick: () => void
+    handleClick?: () => void
 }
 
 export function Button({icon, handleClick}:ButtonProps) {
